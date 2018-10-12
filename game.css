@@ -1,34 +1,49 @@
 body {
-    background-color: #00ffcc;
+    text-align: center;
+    padding-top: 10px;
 }
 
-h1 {
-    color: white;
+#buttons, #scores {
+    width: 930px;
+    margin: 10% auto 0;
+    position: relative;
     text-align: center;
-    text-shadow: 3px 2px black;
-}
-
-h2 {
-    color: white;
-    text-align: center;
-    text-shadow: 3px 2px black;
-}
-
-h3 {
-    color: white;
-    text-align: center;
-    text-shadow: 3px 2px black;
 }
 
 .button {
-    background-color: #3366cc;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    margin: 0 75px;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 148px;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+.button:focus {
+    background-color: aquamarine;
+}
+
+#result {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.score {
+    width: 150px;
+    height: 150px;
+    margin: 0 75px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.score span {
+    font-weight: bold;
 }
